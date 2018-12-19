@@ -42,10 +42,8 @@ __docker exec -it $(docker ps --filter name=jobmanager --format={{.ID}}) flink r
 **where optional params could for example point to the dataset copied at the previous step.
 
 ## Accessing Flink Web Dashboard
+Navigate to __http://localhost:8081__
 
-**Navigate to __http://localhost:8081__
-
-# Stop Flink Cluster
-
+## Stop Flink Cluster
 docker-compose down shuts down the cluster.
 
