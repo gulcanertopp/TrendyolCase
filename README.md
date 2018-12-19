@@ -25,10 +25,12 @@ docker-compose scale taskmanager=5 will scale to 5 TaskManagers.
 
 ## Deploy and Run a Job
 **Copy the Flink job JAR to the Job Manager
+
 __docker cp target/trendyolCase-1.0-jar-with-dependencies.jar $(docker ps --filter name=jobmanager --format={{.ID}}):/trendyol.jar__
 
 
 **Copy the data to each Flink node if necessary
+
 __for i in $(docker ps --filter name=flink --format={{.ID}}); do
   docker cp src/main/resources/file/case.csv $I:/case.csv
 done__
