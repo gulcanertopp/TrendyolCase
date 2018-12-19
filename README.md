@@ -1,6 +1,6 @@
-## TrendyolCase ##
+# TrendyolCase #
 
-# If you want to look the results of case quickly, Please check these paths: #
+## If you want to look the results of case quickly, Please check these paths: ##
 
 src/main/resources/file/resultGroupProduct.txt
 src/main/resources/file/resultFullfilledEvents.txt
@@ -9,17 +9,18 @@ src/main/resources/file/resultFullfilledProductIdUser47.txt
 src/main/resources/file/resultGroupEventName.txt
 
 
-# If you want to control Docker #
+## If you want to control Docker ##
 
-# Run locally #
+## Run locally ##
 
 Get the __docker-compose.yml__ from Github and then use the following snippets
 
-# Start JobManager and TaskManager
+## Start JobManager and TaskManager
 
-__docker-compose up -d__ will start in background a JobManager with a single TaskManager and the History Server.
+__docker-compose up -d__ 
+will start in background a JobManager with a single TaskManager and the History Server.
 
-# Scale TaskManagers
+## Scale TaskManagers
 
 docker-compose scale taskmanager=5 will scale to 5 TaskManagers.
 
