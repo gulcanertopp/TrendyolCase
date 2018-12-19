@@ -1,0 +1,5 @@
+Result Group userId =>>52 -- cnt22
+Result Group userId =>>36 -- cnt21
+Result Group userId =>>74 -- cnt18
+Result Group userId =>>89 -- cnt18
+Result Group userId =>>5 -- cnt18

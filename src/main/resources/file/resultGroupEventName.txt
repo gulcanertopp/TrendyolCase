@@ -1,0 +1,4 @@
+view|308
+remove|328
+click|290
+add|274

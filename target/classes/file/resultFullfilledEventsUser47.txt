@@ -1,0 +1,4 @@
+Result Group Event =>>add | 5
+Result Group Event =>>remove | 4
+Result Group Event =>>click | 1
+Result Group Event =>>view | 6

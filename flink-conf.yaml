@@ -1,0 +1,8 @@
+jobmanager.rpc.address: localhost
+jobmanager.rpc.port: 6123
+jobmanager.heap.mb: 256
+taskmanager.heap.mb: 512
+taskmanager.numberOfTaskSlots: 2
+taskmanager.memory.preallocate: false
+parallelism.default: 1
+jobmanager.web.port: 8081
